@@ -1,4 +1,4 @@
 require './config/environment'
-require_relative "models/text_analyzer.rb"
+require_relative "models/textanalyzer.rb"
 
 run App
