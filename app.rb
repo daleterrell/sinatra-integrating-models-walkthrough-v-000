@@ -6,8 +6,8 @@ class App < Sinatra::Base
     erb :index
   end
 
-  post '/' do
-    text_from_user = params[:user_text]
+  def POST '/' do
+    puts text_from_user = params[:user_text]
 
     erb :results
   end
